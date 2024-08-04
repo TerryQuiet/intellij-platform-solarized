@@ -2,7 +2,7 @@
   "name": "Quietly Solarized",
   "dark": true,
   "author": "qdev",
-  "editorScheme": "/themes/editor2.xml",
+  "editorScheme": "/themes/editor.xml",
   "colors": {
     "colorBackground": "#0E3C4A",
     "colorForeground": "#A9B3AE",

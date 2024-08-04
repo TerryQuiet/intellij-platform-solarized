@@ -1,12 +1,5 @@
-<scheme name="Quietly Solarized" version="2" parent_scheme="Darcula">
+<scheme name="Quietly Solarized" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0"/>
-    <metaInfo>
-        <property name="created">2024-02-25T20:37:24</property>
-        <property name="ide">Idea</property>
-        <property name="ideVersion">2023.3.4.0.0</property>
-        <property name="modified">2024-02-25T20:37:51</property>
-        <property name="originalScheme">Quietly Solarized</property>
-    </metaInfo>
     <option name="LINE_SPACING" value="1.1"/>
     <option name="EDITOR_FONT_SIZE" value="14"/>
     <option name="EDITOR_FONT_NAME" value="FiraCode Nerd Font"/>
@@ -96,7 +89,6 @@
         <option name="NOTIFICATION_BACKGROUND" value="3359"/>
         <option name="PROMOTION_PANE" value="14485c"/>
         <option name="QUESTION_HINT" value="1c698b"/>
-        <option name="READONLY_FRAGMENT_BACKGROUND" value=""/>
         <option name="RECENT_LOCATIONS_SELECTION" value="103842"/>
         <option name="RECURSIVE_CALL_ATTRIBUTES" value="503d00"/>
         <option name="RIGHT_MARGIN_COLOR" value="2b4c56"/>
@@ -106,7 +98,6 @@
         <option name="SELECTION_FOREGROUND" value="2b36"/>
         <option name="SEPARATOR_ABOVE_COLOR" value="2e4e58"/>
         <option name="SEPARATOR_BELOW_COLOR" value="a3844"/>
-        <option name="SOFT_WRAP_SIGN_COLOR" value=""/>
         <option name="STRING_CONTENT_INDENT_GUIDE" value="2a5f46"/>
         <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="27328c"/>
         <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="6b80868c"/>
@@ -219,7 +210,6 @@
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
-        <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
         <option name="BASH.INTERNAL_COMMAND">
             <value>
                 <option name="FOREGROUND" value="859900"/>
@@ -342,7 +332,7 @@
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="2b36"/>
+                <option name="FOREGROUND" value="7b7676"/>
             </value>
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
@@ -467,8 +457,6 @@
                 <option name="FOREGROUND" value="5380cc"/>
             </value>
         </option>
-        <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT"/>
-        <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT"/>
         <option name="CUSTOM_NUMBER_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="cb4b16"/>
@@ -660,7 +648,6 @@
                 <option name="BACKGROUND" value="323866"/>
             </value>
         </option>
-        <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
                 <option name="FOREGROUND" value="586e75"/>
@@ -706,7 +693,6 @@
                 <option name="BACKGROUND" value="73642"/>
             </value>
         </option>
-        <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
                 <option name="FOREGROUND" value="d33682"/>
@@ -774,7 +760,6 @@
                 <option name="FOREGROUND" value="cb4b16"/>
             </value>
         </option>
-        <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
             <value>
                 <option name="EFFECT_COLOR" value="3b5760"/>
@@ -798,7 +783,6 @@
                 <option name="FOREGROUND" value="2aa198"/>
             </value>
         </option>
-        <option name="DEFAULT_TAG" baseAttributes="TEXT"/>
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
             <value>
                 <option name="BACKGROUND" value="73642"/>
@@ -940,8 +924,6 @@
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
-        <option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING"/>
         <option name="GHERKIN_REGEXP_PARAMETER">
             <value>
                 <option name="FOREGROUND" value="268bd2"/>
@@ -1020,7 +1002,6 @@
         <option name="GQL_ID">
             <value/>
         </option>
-        <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD"/>
         <option name="HAML_ID">
             <value>
                 <option name="FOREGROUND" value="b58900"/>
@@ -1148,7 +1129,6 @@
                 <option name="BACKGROUND" value="2e4e58"/>
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="268bd2"/>
@@ -1919,9 +1899,6 @@
                 <option name="FOREGROUND" value="b58900"/>
             </value>
         </option>
-        <option name="PROPERTIES.VALID_STRING_ESCAPE">
-            <value/>
-        </option>
         <option name="PROPS.INVALID_STRING_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="ebe5d2"/>
@@ -2690,8 +2667,6 @@
                 <option name="FOREGROUND" value="a85ba3"/>
             </value>
         </option>
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD"/>
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES"/>
         <option name="STRUCT_LIKE">
             <value>
                 <option name="FOREGROUND" value="b38700"/>
