@@ -12,7 +12,7 @@ version = providers.gradleProperty("pluginVersion").get()
 
 // Set the JVM language level used to build the project.
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }
 
 // Configure project's dependencies
@@ -49,12 +49,32 @@ dependencies {
 // Configure IntelliJ Platform Gradle Plugin - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-extension.html
 intellijPlatform {
     pluginConfiguration {
+        id = "pp.qdev.solarized"
+        name = providers.gradleProperty("pluginName")
         version = providers.gradleProperty("pluginVersion")
+        description = """
+        Theme based on 4lex4 solarized dark theme. (that got removed from the store)
+        I was able to find fork of this theme and reuse it.
+        I work with kotlin, so I can tell that this theme looks fine for kotlin.
+        Feel free to fork and edit this theme.
+        Or look for original theme fork xD
+        """.trimIndent()
+
+        vendor {
+            name = "TerryQuiet"
+        }
 
         ideaVersion {
-            sinceBuild = providers.gradleProperty("pluginSinceBuild")
-            untilBuild = providers.gradleProperty("pluginUntilBuild")
+            sinceBuild = "232"
+            untilBuild = provider { null }
         }
+    }
+
+    publishing {
+        token = providers.environmentVariable("PUBLISH_TOKEN")
+        //https://plugins.jetbrains.com/plugins/alpha/pp.qdev.solarized
+        channels = listOf("alpha")
+        hidden = true
     }
 
     pluginVerification {
@@ -67,10 +87,6 @@ intellijPlatform {
 tasks {
     wrapper {
         gradleVersion = providers.gradleProperty("gradleVersion").get()
-    }
-
-    publishPlugin {
-        dependsOn()
     }
 }
 

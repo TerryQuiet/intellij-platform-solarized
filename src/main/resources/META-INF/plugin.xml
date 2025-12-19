@@ -1,28 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>pp.qdev.solarized</id>
-    <name>QuietlySolarized</name>
-    <vendor>TerryQuiet</vendor>
-    <version>2.0.0</version>
-
-    <depends>com.intellij.modules.platform</depends>
-
-    <description><![CDATA[
-    <p>
-      <ul>
-        <li>Theme based on 4lex4 solarized dark theme. (that got removed from the store)</li>
-        <li>I was able to find fork of this theme and reuse it.</li>
-        <li>I work with kotlin, so I can tell that this theme looks fine for kotlin.</li>
-        <li>Feel free to fork and edit this theme.</li>
-        <li>Or look for original theme fork xD</li>
-      </ul>
-    </p>
-  ]]></description>
-
-    <idea-version since-build="231"/>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.github.terryquiet.quietlysolarized" path="themes/quietlysolarized.theme.json"/>
-    </extensions>
-
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.github.terryquiet.quietlysolarized" path="themes/quietlysolarized.theme.json" />
+  </extensions>
 </idea-plugin>
